@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <NavBar/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TestComponent msg="Test done"/>
   </div>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
+import TestComponent from './components/TestComponent.vue'
 import HelloWorld from './components/HelloWorld.vue'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    TestComponent,
+    NavBar
   }
 }
 </script>
