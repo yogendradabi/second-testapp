@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <NavBar/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <TestComponent msg="Test done"/>
+    <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <!--<router-view></router-view>-->
+  <router-view></router-view>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import TestComponent from './components/TestComponent.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -18,7 +18,6 @@ export default {
   name: 'app',
   components: {
     HelloWorld,
-    TestComponent,
     NavBar
   }
 }

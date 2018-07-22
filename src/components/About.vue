@@ -2,14 +2,14 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Tested
+      Founded in the year 2000 for the purpose of digitalizing documentation process 
     </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TestComponent',
+  name: 'About',
   props: {
     msg: String
   }

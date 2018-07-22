@@ -6,7 +6,7 @@
   <b-collapse is-nav id="nav_collapse">
 
     <b-navbar-nav>
-      <b-nav-item href="#">Home</b-nav-item>
+      <b-nav-item href="#/">Home</b-nav-item>
       <b-nav-item-dropdown text="Product">
         <b-dropdown-item href="#">Hire Employee</b-dropdown-item>
         <b-dropdown-item href="#">Employee Profile</b-dropdown-item>
@@ -14,8 +14,8 @@
         <b-dropdown-item href="#">Company Registration</b-dropdown-item>
         <b-dropdown-item href="#">Chatbot</b-dropdown-item>
       </b-nav-item-dropdown>
-      <b-nav-item href="#">Press</b-nav-item>
-      <b-nav-item href="#">About</b-nav-item>
+      <b-nav-item href="#/press">Press</b-nav-item>
+      <b-nav-item href="#/about">About</b-nav-item>
     </b-navbar-nav>
 
     <!-- Right aligned nav items -->
