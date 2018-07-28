@@ -8,10 +8,10 @@
     <b-navbar-nav>
       <b-nav-item href="#/">Home</b-nav-item>
       <b-nav-item-dropdown text="Product">
-        <b-dropdown-item href="#">Hire Employee</b-dropdown-item>
-        <b-dropdown-item href="#">Employee Profile</b-dropdown-item>
-        <b-dropdown-item href="#">Register Attendance</b-dropdown-item>
-        <b-dropdown-item href="#">Company Registration</b-dropdown-item>
+        <b-dropdown-item href="#/hireemployee">Hire Employee</b-dropdown-item>
+        <b-dropdown-item href="#/profileemployee">Employee Profile</b-dropdown-item>
+        <b-dropdown-item href="#/RegisterAttendance">Register Attendance</b-dropdown-item>
+        <b-dropdown-item href="#/registerCompany">Company Registration</b-dropdown-item>
         <b-dropdown-item href="#">Chatbot</b-dropdown-item>
       </b-nav-item-dropdown>
       <b-nav-item href="#/press">Press</b-nav-item>

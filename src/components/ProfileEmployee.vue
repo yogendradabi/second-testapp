@@ -1,0 +1,31 @@
+<template>
+  <div>
+    <b-button @click="showModal">
+      View Profile
+    </b-button>
+    <b-modal ref="myModalRef" hide-footer title="ProfileEmployee">
+      <div class="d-block text-center">
+        <h3>PLease enter the details</h3>
+      </div>
+      <Form/>
+      <b-btn class="mt-3" variant="outline-danger" block @click="hideModal">Close</b-btn>
+    </b-modal>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ProfileEmployee',
+  props: {
+    msg: String
+  },
+  methods: {
+    showModal () {
+      this.$refs.myModalRef.show()
+    },
+    hideModal () {
+      this.$refs.myModalRef.hide()
+    }
+  }
+}
+</script>
