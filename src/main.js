@@ -9,7 +9,9 @@ import RegisterAttendance from './components/RegisterAttendance.vue'
 //import Form from './components/Form.vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
+import axios from 'axios'
 
+Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 Vue.use(BootstrapVue);
 Vue.use(VueRouter);
